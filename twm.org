@@ -1,0 +1,44 @@
+#+TITLE: Emendas Tecnologia Web e Mobile
+#+AUTHOR: Pedro Fernandes
+#+DATE: <2019-09-12 qui>
+
+
+* Padrão Web e Mobile
+** W3C - Word Wide Web Consortium
+*** HTML, CSS, XML
+** Padrão para o desenvolvimento de página Web e Web design responsivo
+** Arquitetura, Indetificadores, Protocolos, Meta Formatos e Internacionalização
+** Tecnologi XML e JSON
+** Arquitetura de aplicações orientadas a servição para servidores web.
+* Aplicações Web e Mobile
+** Tecnologias Back-end, frameworks
+** Tecnologias Font-end, framaworks
+* Modelagem de Aplicações Web e Mobile
+** Banco de dados relacional
+** Banco de dados não-relacional
+** Manipulação de dados de aplicações web e mobile em nuvem
+* Gerenciamente e Projeto de Aplicações Web e Mobile
+** Planejamento de websitese servições web para acesso via múltiplos clients (navegador web e dispositivos móveis)
+** Atributos de qualidade de Aplicações web e mobile
+** Projeto estrutural, comportamental, arquitetural de aplicações web e mobile
+** Projeto de segurança em aplicação web e mobile
+* Interação Homem Computador
+** Usabilidade web e mobile
+** Requisitos de usabilidade
+** Desenvolvimento centrado no usuário
+** Estilos de Interação
+** Prototipação de interfaces
+** Avaliação de usabilidade
+* Construção e Implantação de Aplicações Web e Mobile
+** Atributos de qualidade de Aplicações web e mobile em nuvem
+** Projeto arquitetural de aplicações web e mobile em nuvem
+** Gerência de Configuração, Ferramentas de gestão de configução
+** Desenvolvimento de aplicação web e mobile em nuvem
+** Testes de aplicações web e mobile
+* Análise e Otimização de Acessos e implantação de aplicações Web e Mobile
+** Otimização para buscas na Web
+** Web analytics
+** Métricas e análises
+** Estratégias de conteúdo
+* Web Semântica
+** Conceitos e exemplo de aplicação

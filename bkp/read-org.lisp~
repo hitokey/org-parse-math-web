@@ -1,0 +1,25 @@
+(defun parser-math(lc &optional (rs '()) (n 0) (s 0) (ctr nil))
+  (cond ((null lc) (reverse rs))
+	((and (eq (car lc) '#\Newline) (eq (cadr lc) '#\*))
+	 (parser-math (cdr lc) rs n s nil))
+	((and (eq (car lc) '#\*) (eq (cadr lc) '#\*))
+	   (parser-math (cdr lc) rs n  s nil))
+	((and (eq (car lc) '#\*) (eq (cadr lc) '#\Space))
+	 (progn
+	   (push (cons (caddr lc) (cons n s)) rs)
+	   (parser-math (cdddr lc) rs n s t)))
+	(ctr
+	 (progn
+	   (push (car lc) (caar rs))
+	   (parser-math (cdr lc) rs n s ctr)))
+	(t (parser-math (cdr lc) rs n s nil))))
+
+	 
+
+(defun read-org(file &optional (results nil))
+  (with-open-file (in file)
+    (loop for line = (read-char in nil)
+       while line do
+	 (push line results)))
+  (reverse results))
+
